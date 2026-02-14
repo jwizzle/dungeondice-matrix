@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from lib import dice
+from dungeondice_matrix.lib import dice
 
 
 def dicerolls(author: str, rollgroups: list[dice.Rollgroup], comment: str):

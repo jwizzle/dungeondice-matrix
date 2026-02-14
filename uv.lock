@@ -247,7 +247,7 @@ wheels = [
 [[package]]
 name = "dungeondice-matrix"
 version = "1.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "matrix-nio", extra = ["e2e"] },
     { name = "pytest" },

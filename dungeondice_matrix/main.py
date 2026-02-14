@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 from dotenv import load_dotenv
-from lib.templates import dicerolls
-from lib import dice
+from dungeondice_matrix.lib.templates import dicerolls
+from dungeondice_matrix.lib import dice
 
 import os
 import simplematrixbotlib as botlib

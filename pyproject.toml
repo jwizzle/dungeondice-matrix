@@ -24,5 +24,8 @@ license-files = ["LICEN[CS]E*"]
 Homepage = "https://github.com/jwizzle/dungeondice-matrix"
 Issues = "https://github.com/jwizzle/dungeondice-matrix/issues"
 
+[tool.uv]
+package = true
+
 [project.scripts]
-dungeondice-matrix = "dungeondice-matrix.main:start_bot"
+dungeondice-matrix = "dungeondice_matrix.main:start_bot"
