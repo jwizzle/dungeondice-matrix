@@ -51,4 +51,5 @@ async def echo(room, message):
             )
 
 
-bot.run()
+def start_bot():
+    bot.run()
