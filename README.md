@@ -27,6 +27,25 @@ Details: [[10, 11]21poison, [2]2piercing, [4]4]
 
 ## Usage
 
+Directly from the repo:
+
 ```
 MATRIX_HOST="https://your.host" BOT_USERNAME="@diceparser:your.host" BOT_PASSWORD="secret" uv run main.py
+```
+
+Installation using pip:
+
+```
+pip install --upgrade dungeondice-matrix
+MATRIX_HOST="https://your.host" BOT_USERNAME="@diceparser:your.host" BOT_PASSWORD="secret" dungeondice-matrix
+```
+
+Docker:
+```
+$ cat .env
+MATRIX_HOST=https://<host>
+BOT_USERNAME=@<bot_username>:<host>
+BOT_PASSWORD=<your password>
+
+$ docker run --env-file=.env ghcr.io/jwizzle/dungeondice-matrix:latest
 ```
