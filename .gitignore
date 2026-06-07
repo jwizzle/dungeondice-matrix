@@ -2,3 +2,6 @@ session.txt
 store/
 build/
 .env
+.agents/
+.codex/
+.pytest_cache/
