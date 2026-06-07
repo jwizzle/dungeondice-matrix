@@ -12,3 +12,5 @@ htmlcov
 .env.*
 Dockerfile
 docker-compose*.yml
+session.txt
+store/
